@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+};
+
+body {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    };
+
+
+.logo1 {
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 95px;
+    margin-left: 629px;
+}
+
+#bg1 {
+    height: 70vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 290px;
+}
+
+
+
+h1 {
+    color: white;
+    margin-left: 8px;
+    font-size: 38px;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+
+    
+#brand {
+    color: rgba(21, 145, 207);
+    font-size: 45px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#va {
+    color: rgb(255, 184, 5);
+    font-size: 45px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#voice {
+    display: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 90px; 
+    height: 150px;
+    margin-left: 730px;
+    animation: spin 1s linear infinite;
+
+
+    /* width: 200px; 
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: -120px; */
+}
+
+    /* #voice:hover {
+        width: 250px;
+        transition: 0.5s;
+    } */
+
+#btn {
+    width: 40%;
+    margin-left: 400px;
+    background: linear-gradient(to right,rgb(255, 184, 5), rgba(21, 145, 207));
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 10px rgb(255, 184, 5), 2px 2px 10px rgba(21, 145, 207);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    box-shadow: 2px 2px 20px rgb(255, 184, 5), 2px 2px 20px rgba(21, 145, 207);
+    letter-spacing: 2px;
+}

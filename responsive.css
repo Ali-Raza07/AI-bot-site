@@ -1,0 +1,165 @@
+/* General Styles for All Devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for Mobile Devices (less than 600px) */
+@media only screen and (max-width: 600px) {
+.container {
+    width: 205px;
+}
+
+h1 {
+    margin-left: -90px;
+    font-size: 20px;
+    margin-right: -400px;
+    text-align: center;
+}
+
+img {
+    width: 7%;
+}
+
+.logo1 {
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 35px;
+}
+
+#bg1 {
+    height: 200px;
+    width: 590px;
+    margin-left: 150px;
+}
+
+#brand {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 23px;
+}
+
+#va {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 23px;
+}
+
+#btn {
+    width: 160%;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+}
+
+/* Styles for Tablets (600px to 768px) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+.container {
+    width: 60px;
+}
+    
+h1 {
+    margin-left: -90px;
+    font-size: 25px;
+    margin-right: -550px;
+    text-align: center;
+}
+
+img {
+    width: 8%;
+}
+
+.logo1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 35px;
+}
+
+#bg1 {
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+
+}
+
+#brand {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 29px;
+}
+
+#va {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 29px;
+}
+
+#btn {
+    width: 350px;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 90px;
+}
+
+}
+
+/* Styles for Desktops (more than 768px) */
+@media only screen and (min-width: 768px) {
+.container {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+img {
+    width: 5%;
+}
+
+.logo1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 60px;
+    margin-right: 1400px;
+}
+
+#bg1 {
+    height: 60vh;
+    width: 45vw;
+    margin-left: 440px;
+}
+
+#brand {
+    font-size: 55px;
+}
+
+#va {
+    font-size: 55px;
+}
+
+#voice {
+    width: 200px;
+    display: none;
+
+}
+
+#btn {
+    width: 35%;
+    margin-left: 550px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+}
+
+/* End of Responsive Styles */
